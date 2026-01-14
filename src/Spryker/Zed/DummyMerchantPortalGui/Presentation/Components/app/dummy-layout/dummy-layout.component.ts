@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
+    standalone: false,
     selector: 'mp-dummy-layout',
     templateUrl: './dummy-layout.component.html',
     styleUrls: ['./dummy-layout.component.less'],
